@@ -1,0 +1,112 @@
+body {
+    background-color: black;
+    font-family: "Orbitron", sans-serif;
+}
+button {
+    cursor: pointer;
+}
+
+.body-of-calculator {
+    display: flex;
+    justify-content: center;
+}
+
+.numbers-panel {
+    width: 335px;
+    height: 96px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 5px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.main-calculator-div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
+    background-color: grey;
+    padding: 32px 20px;
+    border-radius: 15px;
+}
+
+.buttons-div {
+    display: flex;
+    gap: 16px;
+}
+
+.calculator-button-top {
+    font-weight: 800;
+    text-align: center;
+    font-size: 32px;
+    background-color: #4E505F;
+    width: 72px;
+    height: 72px;
+    border-radius: 24px;
+    border: solid;
+    color: #fff;
+}
+
+.calculator-button-top:hover{
+    color: #4E505F;
+    background-color: #fff;
+}
+
+.calculator-button {
+    font-weight: 800;
+    text-align: center;
+    font-size: 32px;
+    width: 72px;
+    height: 72px;
+    border-radius: 24px;
+    border: solid;
+    background-color: #2E2F38;
+    color: #fff;
+}
+
+.calculator-button:hover {
+    background-color: #fff;
+    color: #2E2F38;
+}
+
+.calculator-button-side {
+    font-weight: 800;
+    text-align: center;
+    font-size: 32px;
+    width: 72px;
+    height: 72px;
+    border-radius: 24px;
+    border: solid;
+    background-color: #4B5EFC;
+    color: #fff;
+}
+
+.calculator-button-side:hover {
+    color: #4B5EFC;
+    background-color: #fff;
+}
+
+ .hover-icon {
+    display: none;
+} 
+
+#change-symbol-calculator,
+#backspace-calculator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#change-symbol-calculator:hover .default-icon,
+#backspace-calculator:hover .default-icon {
+    display: none;
+}
+
+#change-symbol-calculator:hover .hover-icon,
+#backspace-calculator:hover .hover-icon {
+    display: block;
+}

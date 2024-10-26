@@ -1,0 +1,64 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="./calculator.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <div class="body-of-calculator">
+            <div class="main-calculator-div">
+                <div class="numbers-panel">
+                    <p id="display">LETS CALCULATE NUMBERS</p>
+                </div>
+                <div class="buttons-div">
+                    <button id="C-calculator" class="calculator-button-top"> C </button>
+                    <button id="change-symbol-calculator" class="calculator-button-top">
+                        <img src="./components/-.png" alt="change symbol" class="default-icon">
+                        <img src="./components/- black.png" alt="other symbol" class="hover-icon">
+                    </button>
+                    <button id="procent-calculator" class="calculator-button-top"> %</button>
+                    <button id="division-calculator" class="calculator-button-side"> / </button>
+                </div>
+    
+                <div class="buttons-div">
+                    <button id="7-calculator" class="calculator-button"> 7 </button>
+                    <button id="8-calculator" class="calculator-button"> 8 </button>
+                    <button id="9-calculator" class="calculator-button"> 9 </button>
+                    <button id="multiplication-calculator" class="calculator-button-side"> X </button>
+                </div>
+    
+                <div class="buttons-div">
+                    <button id="4-calculator" class="calculator-button"> 4 </button>
+                    <button id="5-calculator" class="calculator-button"> 5 </button>
+                    <button id="6-calculator" class="calculator-button"> 6 </button>
+                    <button id="subtraction-calculator" class="calculator-button-side"> - </button>
+                </div>
+    
+                <div class="buttons-div">
+                    <button id="1-calculator" class="calculator-button"> 1 </button>
+                    <button id="2-calculator" class="calculator-button"> 2 </button>
+                    <button id="3-calculator" class="calculator-button"> 3 </button>
+                    <button id="adding-calculator" class="calculator-button-side"> + </button>
+                </div>
+    
+                <div class="buttons-div">
+                    <button id="point-calculator" class="calculator-button"> . </button>
+                    <button id="0-calculator" class="calculator-button"> 0</button>
+                    <button id="backspace-calculator" class="calculator-button">
+                        <img src="./components/delete.png" alt="delete" class="default-icon">
+                        <img src="./components/change black.png" alt="other delete" class="hover-icon">
+                    </button>
+                    <button id="equals-calculator" class="calculator-button-side"> = </button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./calculator.js"></script>
+</body>
+</html>
